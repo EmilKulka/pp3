@@ -7,7 +7,7 @@ public class J4 {
         int secondsFromMidnight = (hours * 3600) + (minutes * 60);
         System.out.println("Hours = " + hours);
         System.out.println("Minutes = " + minutes);
-        System.out.printf("time: %02d:%02d%n", hours, minutes);
+        System.out.printf("time = %02d:%02d%n", hours, minutes);
         System.out.println("Minutes from midnight = " + minutesFromMidnight);
         System.out.println("Seconds from midnight = " + secondsFromMidnight);
     }
