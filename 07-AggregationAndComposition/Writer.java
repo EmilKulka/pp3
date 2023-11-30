@@ -1,6 +1,9 @@
 public class Writer {
     private String surname;
 
+    public Writer(String surname) {
+        this.surname = surname;
+    }
     public String getSurname() {
         return surname;
     }
