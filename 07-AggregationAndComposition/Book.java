@@ -31,13 +31,12 @@ public class Book {
     
     public static void main(String[] args) {
         Writer author1 = new Writer("Mickiewicz");
-        Book ksiazka1 = new Book("Pan taduesz", author1);
+        Book book1 = new Book("Pan Tadeusz", author1);
+        System.out.println(book1.getAuthor().getSurname());
+        author1.setSurname(null);
+        System.out.println(book1.getAuthor().getSurname());
 
-        System.out.println(ksiazka1.getAuthor().getSurname());
-        ksiazka1= null;
-        System.out.println(author1.displaySurname());
     }
-    
 
     
 }
